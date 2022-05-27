@@ -1,9 +1,14 @@
-# THIS IS MY TECHNICAL README - MY "HOW"
-- before beginning this project, i created [test extensions](https://github.com/prach19/eecs1720/tree/main/chrome_ext_experiments) with the help of [CodingTrain youtube videos](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS)
+# info
 
-- by creating test extensions i understood some basics of creating a browser extension such as the manifest.json, using the Chrome API, using popups, etc.
+This is a simple to do list broswer extension that allows you to write and save tasks, check them off and delete them as you wish. When you check off a task, confetti plays to celebrate!
 
-- once i figured out that i wanted to make a to-do list extension, i searched for resources and came across [another tutorial](https://www.youtube.com/watch?v=Aw3G2jR-5IM&t=3978s) that was similar to what i had in mind. (this was used to give some direction)
+At the moment, it is under review and to be published on the Chrome Web Store soon. Until then, you can use the extension by downloading the [to-do-ext](/to-do-ext) folder and loading it into your browser by following [these](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) instructions
+
+# background (progress and how I made this)
+
+- before beginning this project, I created [test extensions](https://github.com/prach19/eecs1720/tree/main/chrome_ext_experiments)
+
+- by creating test extensions I understood some basics of creating a browser extension such as the manifest.json, using the Chrome API, using popups, etc.
 
 - at the moment, the extension does the very basics: it allows you to create, cross off, and delete tasks easily
 - **NOTE** : i am unsure if the extension works on firefox
