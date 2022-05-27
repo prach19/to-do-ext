@@ -1,0 +1,18 @@
+
+
+{
+  "manifest_version": 3,
+  "name": "Minimal To Do List",
+  "version": "1.0",
+  "action": {
+    "default_icon": "img/todo_icon.png",
+		"default_title": "stay productive",
+		"default_popup": "todo.html"
+	},
+  "icons":{ "16": "img/todo_icon.png"},
+  "description": "create a minimal to do list",
+  "permissions": ["storage"]
+  
+	
+  
+}

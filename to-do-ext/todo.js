@@ -48,7 +48,7 @@ function receiveItems(){
             //adding the icons/buttons
             newItemsHTML += `<li data-itemindex="${i}" ${status}>
             <span class="item">${itemsArray[i].item}</span> 
-            <div><span class="itemComplete"> <img src="img/check.png" alt= "check" width = 15px height = 15px> </span>
+            <div><span class="itemComplete"> <img src="img/check.png" id = "check" alt= "check" width = 15px height = 15px> </span>
             <span class="itemDelete"> <img src="img/bin.png" alt= "delete" width = 15px height = 15px> </span></div>
             </li>`;
         }
@@ -67,7 +67,7 @@ function receiveItems(){
                 itemDelete(index);
             });
         }
-        } catch(e) {     
+     } catch(e) {     
 }
 }
 
@@ -78,11 +78,20 @@ function itemComplete(index){
         if(itemsStorage == null){
         itemsStorage = '[]';
         }
+
     var itemsArray = JSON.parse(itemsStorage);
         itemsArray[index].status = 1;
         saveItems(itemsArray);
 
-        document.querySelector('ul.items li[data-itemindex="'+index+'"]').className='done';
+    document.querySelector('ul.items li[data-itemindex="'+index+'"]').className='done';
+
+    var vid = document.getElementById("confetti");
+        vid.style.display = "block";
+        vid.play();
+        vid.onended = function stop(){vid.style.display = "none";}
+
+    
+
 }
 
 //function for deleted items
