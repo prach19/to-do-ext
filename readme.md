@@ -4,7 +4,7 @@ This is a simple to do list browser extension that allows you to write and save 
 
 * Currently, the new version is under review and to be published on the Chrome Web Store soon. Until then, you can use the extension by downloading the [to-do-ext](/to-do-ext) folder and loading it into your browser by following [these](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) instructions.
 * The old version is available on the Chrome Store [here](https://chrome.google.com/webstore/detail/to-do-list/opnjmmadcljenkgggaaipfjpcnoilglk).
-* The add-on is available [here]() for Firefox.
+* The add-on is available [here](https://addons.mozilla.org/addon/minimal-to-do-list/) for Firefox.
 
 ## background (the how and why)
 - as a person who relies on planning and organization, I wanted to make a functional extension that people like me could use with ease.
