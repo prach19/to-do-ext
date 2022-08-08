@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "name": "Minimal To Do List",
   "description": "create a minimal to do list",
-  "version": "1.0",
+  "version": "1.1",
   "action": {
     "default_icon": "img/todo_icon.png",
 		"default_title": "stay productive",
@@ -18,6 +18,6 @@
             "/style.css"
         ]
   },
-  "permissions": ["storage"]
+  "permissions": []
   
 }
