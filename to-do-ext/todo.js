@@ -85,10 +85,10 @@ function itemComplete(index){
 
     document.querySelector('ul.items li[data-itemindex="'+index+'"]').className='done';
 
-    var vid = document.getElementById("confetti");
-        vid.style.display = "block";
-        vid.play();
-        vid.onended = function stop(){vid.style.display = "none";}
+    // var vid = document.getElementById("confetti");
+    //     vid.style.display = "block";
+    //     vid.play();
+    //     vid.onended = function stop(){vid.style.display = "none";}
 
     
 

@@ -8,11 +8,12 @@ body {
 .heading {
   text-align: center;
   font-size: xx-large;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Yeseva One', serif;
   padding: none;
   margin: 5px;
   border: 2px;
   border-style: solid;
+  border-radius: 3px;
   border-color: #003459;
 }
 
@@ -36,7 +37,7 @@ video {
   background-color: #048090;
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   position: center;
 }
 
@@ -50,6 +51,7 @@ input[type="text"] {
   width: 70%;
   background-color: #abe4ed;
   box-sizing: content-box;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 5px;
 }
 
@@ -60,7 +62,7 @@ input[type="text"] {
   padding: 5px;
   list-style: none;
   font-size: 14px;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
 .items li {
