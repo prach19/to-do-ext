@@ -1,6 +1,6 @@
 body {
   width: 250px;
-  background-color: #8ad9e5;
+  background-color: #fffbff;
   margin: 5px;
   margin-top: 10px;
 }
@@ -9,17 +9,18 @@ body {
   text-align: center;
   font-size: xx-large;
   font-family: 'Yeseva One', serif;
+  
   padding: none;
   margin: 5px;
   border: 2px;
   border-style: solid;
-  border-radius: 3px;
-  border-color: #003459;
+  border-radius: 20px;
+  border-color: #9c4146;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #40000a;
 }
 
 video {
@@ -29,13 +30,13 @@ video {
 .button {
   color: #000;
   text-align: center;
-  border-style: solid;
-  border-color: #048090;
-  padding: 2px 5px;
+  border: 1px solid;
+  border-color: #9c4146;
+  padding: 3px 6px;
   margin: 2.5px;
   display: inline-block;
-  background-color: #048090;
-  border-radius: 5px;
+  background-color: #f4dddd;
+  border-radius: 10px;
   cursor: pointer;
   font-family: 'Josefin Sans', sans-serif;
   position: center;
@@ -69,7 +70,9 @@ input[type="text"] {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #003459;
+  background-color: #f4dddd;
+  border: 1px solid #9c4146;
+  border-radius: 10px;
 }
 
 .items li:hover {
