@@ -29,7 +29,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 5px 0px 5px;
+  /* padding: 0px 5px 0px 5px; */
   border-radius: 25px;
   background-color: #64558f;
 }
@@ -39,14 +39,14 @@ input {
   outline: none;
   background-color: transparent;
   color: #b0a7c4;
-  padding: 15px;
+  padding: 1px 10px 1px 10px;
 }
 input::placeholder {
   color: #b0a7c4;
 }
 
 button {
-  padding: 10px;
+  padding: 2.5px 20px 2.5px 20px;
   border: none;
   border-radius: 25px;
   background-color: #4c3e76;
@@ -59,8 +59,8 @@ ul li {
   justify-content: space-between;
   list-style: none;
   font-size: 14px;
-  padding: 15px 35px 15px 35px;
-  margin: 5px;
+  padding: 15px 0px 15px 35px;
+  margin-top: 5px;
   user-select: none;
   cursor: pointer;
   position: relative;
@@ -70,7 +70,7 @@ ul li {
 ul li:hover {
   border: none;
   background-color: #b0a7c4;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 
 ul li::before {
