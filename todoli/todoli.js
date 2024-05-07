@@ -1,7 +1,8 @@
 let inputTask = document.getElementById("input-task");
 let taskList = document.getElementById("list");
+let addTask = document.getElementById("addTask");
 
-function addTask(){
+addTask.addEventListener("click", function(){
     if(inputTask.value === ""){
         alert("Please enter a task");
     }
@@ -16,7 +17,7 @@ function addTask(){
     }
     inputTask.value="";
     saveTasks();
-}
+})
 
 taskList.addEventListener("click", function(input){
     if(input.target.tagName == "LI"){
